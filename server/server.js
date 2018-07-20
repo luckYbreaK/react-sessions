@@ -23,6 +23,8 @@ app.post("/api/login", (req, res) => {
     id: req.session.id,
     role: role
   };
+  console.log(req.session);
+  //Suhweet!!!
   res.sendStatus(200);
 });
 
